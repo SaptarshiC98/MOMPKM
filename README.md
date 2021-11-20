@@ -7,7 +7,7 @@ Description of MOMPKM:
 
 Implements MOMPKM described in the paper.
 
-# Inputs: 
+## Inputs: 
 
 X 	: n * p data matrix whose rows denote the observations.
 
@@ -25,7 +25,7 @@ verbose : If TRUE, prints iteration numbers. Default value is FALSE.
 
 tmax    : Maximum number of iterations to run the algorithm. Default is 100.
 
-# Outputs:
+## Outputs:
 
 label   : Class label of the n data points, returned as an n length vector.
 
