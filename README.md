@@ -10,9 +10,13 @@ Implements MOMPKM described in the paper.
 Inputs: 
 
 X 	: n * p data matrix whose rows denote the observations.
+
 k 	: No. of clusters.
+
 L 	: No. of partitions.
+
 s 	: Initial value for parameter s in power k-means. Default value is -1.
+
 eta     : Rate of increase of s (s= s * eta). Default value is 1.02.
 alpha   : Learning rate for Adagrad Default is 0.1.
 verbose : If TRUE, prints iteration numbers. Default value is FALSE.
